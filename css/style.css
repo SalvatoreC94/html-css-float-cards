@@ -3,6 +3,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
 }
 
 /* general */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.pink-color {
+    color: #ED306F;
+}
+
+/* Header */
+
+h1 {
+    margin: 30px 0;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+img {
+    max-width: 80px;
+    float: left;
+}
+
+/* Main */
+.intro {
+    text-align: center;
+}
+
+.team {
+    margin-top: 20px;
+
+}
+
+section div {
+    color: white;
+}
+
+
+.columns>* {
+    float: left;
+    width: calc((100% / 3) - 10px);
+
+    margin: 5px;
+    background-color: #0F0E17;
+}
+
+span {
+    color: #419FB9;
+    cursor: pointer;
+}
